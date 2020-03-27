@@ -69,12 +69,12 @@ html, body {
 
 @media (min-width: 320px) and (max-width: 1200px) {
   .joinOuterContainer {
-    height: 60%;
-    width:  80%;
+    height: 100%;
+    width:  100%;
   }
 
   .joinInnerContainer {
-    width: 60%;
+    width: 80%;
   }
 }
 
