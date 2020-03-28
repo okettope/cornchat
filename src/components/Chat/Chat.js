@@ -15,7 +15,7 @@ const Chat = ({location}) => {
     const [room, setRoom] = useState('');
     const [message, setMessage] = useState('');
     const [messages, setMessages] = useState([]);
-  const ENDPOINT = 'localhost:5000';     // https://corn-chat.herokuapp.com/
+  const ENDPOINT = 'https://corn-chat.herokuapp.com/';     // https://corn-chat.herokuapp.com/ localhost:5000
 
     useEffect(() =>{
         const { name, room } = querySpring.parse(location.search);
